@@ -1,0 +1,173 @@
+.logonav{
+    width:100%;
+}
+body{
+  background-color: white;
+}
+.navbar-brand{
+    max-width:25%;
+}
+.nav-item a{
+    color:orangered !important;
+    font-size:20px;
+}
+iframe {
+    border: none;
+    border-left: none;
+    border-right: none;
+  }
+.main{
+  margin-top: 5%;
+  margin-bottom:15% ;
+}
+.aboutusinf{
+  margin-bottom: 5%;
+  color:orangered;
+}
+.slidede {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:600px;
+  overflow: hidden;
+}
+
+.slidede img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin: auto;
+  object-fit: cover; /* изменяем тип отображения на cover */
+  object-position: center;
+}
+
+.carousel-inner {
+  width: 50% !important;
+  margin: 0 auto !important;
+}
+
+@media (max-width: 991px) {
+  .slidede {
+    height: 30vh;
+    width: 70vh;
+    
+  }
+  .imgreviews {
+    height: 20vh !important;
+    width: 50vh !important;
+    
+  }
+  .photode{
+    display:none;
+  }
+}
+  .aboutusinf{
+    text-align:center;
+  }
+  .aboutus h2{
+    font-size:20px;
+    color:orangered;
+  }
+  .navbar-toggler-icon{
+    background-color: white;
+  }
+  .ccat{
+    background-image: url('../img/cat-scratched.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+  }
+  .navbar-toggler-icon {
+    background-image: url('../img/catburger.svg') !important;
+    
+    
+    
+  }
+  .navbar-toggler{
+    border:none !important;
+  }
+  .partner-logo {
+    width:50%;
+  }
+  .partner-loggo {
+    width:30%;
+  }
+.socialmedia{
+  width:10%;
+  
+}
+.photode{
+  width:60%;
+}
+.calldoctor{
+  
+    background-color: orangered;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  
+  
+  
+}
+.calldoctor:hover {
+  background-color: #e79940;
+  text-decoration: none;
+  color:white;
+}
+.tableprice{
+  width: 80%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+.ccol{
+  color:orangered;
+}
+.telegcolor{
+  color:rgb(17, 102, 230);
+}
+.catimgteleg{
+  width:30%;
+}
+.telegramgif{
+  border-radius: 200px;
+  width:100%;
+  text-align: center;
+}
+.catlogocenter{
+  text-align: center;
+}
+.parpadd{
+    padding:2%;
+}
+
+.formreviews{
+  background-color: orange;
+}
+.padcol{
+  padding: 1%;
+}
+.imgreviews {
+  height: 50vh;
+  width: 50vh;
+  
+}
+@media (max-width: 991px) {
+  .navbar-toggler {
+    display: block;
+  }
+  .nav-item a{
+      font-size:15px;
+  }
+}
